@@ -13,8 +13,8 @@ const App = () => {
         <Navigate />
         <Switch>
           <Route path="/about" component={About} />
-          <Route path="/" component={Home} />
           <Route path="*" component={NoMatch} />
+          <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
     </div>
