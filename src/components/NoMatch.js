@@ -1,6 +1,6 @@
 import React from "react";
 
-const NotFound = () => {
+const Nomatch = () => {
   return (
     <div>
       <div>No match</div>
@@ -8,4 +8,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default Nomatch;

@@ -4,7 +4,7 @@ import "../styles/App.css";
 import Home from "./Home";
 import About from "./About";
 import Navigate from "./Navigate";
-import NotFound from "./NotFound";
+import NoMatch from "./Nomatch";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/" component={Home} />
-          <Route path="*" component={NotFound} />
+          <Route path="*" component={NoMatch} />
         </Switch>
       </BrowserRouter>
     </div>
